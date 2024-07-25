@@ -21,7 +21,7 @@ public sealed class ShutdownSchedulerPlugin : RocketPlugin<ShutdownSchedulerConf
     public override TranslationList DefaultTranslations => new()
     {
         { ShutdownWarningTranslationKey, "Warning! The server will shut down in {0}!" },
-        { FormatterTranslationKey, "mm' minutes'ss' seconds'"},
+        { FormatterTranslationKey, "mm' minutes'ss' seconds'" }
     };
 
     public ShutdownSchedulerPlugin()
